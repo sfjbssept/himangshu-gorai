@@ -23,7 +23,7 @@ public class SchoolServiceController {
 
 		System.out.println("Getting School Details for " + schoolname);
 
-		String requestURL = "http://localhost:9091/getStudentDetailsForSchool/" + schoolname;
+		String requestURL = "http://student-service/getStudentDetailsForSchool/" + schoolname;
 
 		HttpHeaders httpHeaders = new HttpHeaders();
 		HttpEntity<String> httpEntity = new HttpEntity<>(httpHeaders);
