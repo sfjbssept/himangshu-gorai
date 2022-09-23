@@ -1,0 +1,17 @@
+employee:
+  post:
+    url: /post
+  get:
+    url: /get
+    username: user1
+    pasword: password
+    
+    
+security:
+  basic:
+    enabled: true
+  ignored: /**
+  
+management:
+  security:
+    enabled: true
