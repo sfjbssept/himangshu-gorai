@@ -29,7 +29,7 @@ public class KafkaPublisherConfig {
 
 	@Bean
 	public KafkaTemplate<String, Object> kafkaTemplate() {
-		return new KafkaTemplate<>(producerFactory());
+		return new KafkaTemplate<>(getProducerFactory());
 	}
 
 }
